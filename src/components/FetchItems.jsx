@@ -11,7 +11,7 @@ const FetchItems = () => {
     if (fetchStatus.fetchDone) return;
     const controller = new AbortController();
     const signal = controller.singal;
-    fetch(`$(baseURL)/items`, { signal })
+    fetch(`${baseURL}/items`, { signal })
       .then((res) => res.json())
       .then(({ items }) => {
         dispatch(itemsActions.addInitialItems(items));
