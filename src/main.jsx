@@ -7,6 +7,7 @@ import {RouterProvider, createBrowserRouter} from "react-router-dom";
 import Bag from "./routes/Bag.jsx";
 import {Provider} from "react-redux";
 import myntraStore from './store/index.js';
+const baseURL = "https://myntraclone-backend.onrender.com";
 
 
 
