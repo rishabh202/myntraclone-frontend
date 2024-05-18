@@ -33,8 +33,10 @@ const Header = () => {
             </div>
 
             <div className="action_container">
+            <Link to="/" className="action_container">
             <FaHeart />
                 <span className="action_name">Wishlist</span>
+            </Link>
             </div>
 
             <Link className="action_container" to="/bag">

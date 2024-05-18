@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +11,8 @@ header {
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #b6b1b1;
 }
+
 .myntra_home {
     height: 45px;
 }
